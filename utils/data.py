@@ -1,5 +1,5 @@
 '''
-Provides helper functions when working with the data
+Provides helper functions when working with the text data
 '''
 
 from __future__ import absolute_import, print_function, unicode_literals
