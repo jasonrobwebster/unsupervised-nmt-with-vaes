@@ -11,7 +11,7 @@ from random import shuffle
 import numpy as np
 
 
-def all_dataset_types(data_dir='./data/'):
+def all_dataset_types(data_dir='./data/raw/'):
     '''
     Returns a list of available types. Assumes the folder contains the 
     structure:
@@ -38,7 +38,7 @@ def all_dataset_types(data_dir='./data/'):
     return os.listdir(data_dir)
 
 
-def all_dataset_sources(data_dir='./data/', types='all'):
+def all_dataset_sources(data_dir='./data/raw/', types='all'):
     '''
     Returns a list of available dataset sources. Assumes the folder contains the 
     structure:
@@ -85,7 +85,7 @@ def all_dataset_sources(data_dir='./data/', types='all'):
     return sources
     
 
-def available_datasets(data_dir='./data/', types='all', sources='all'):
+def available_datasets(data_dir='./data/raw/', types='all', sources='all'):
     '''
     Returns a list of available datasets. Assumes the folder contains the 
     structure:
